@@ -1,0 +1,1 @@
+SELECT date(c.create_date) days, COUNT(*) total FROM tb_question a,tb_answer b,tb_answer_comment c WHERE  a.qid=b.qid AND b.qid=c.qid AND b.aid=c.aid AND c.create_date>='2013-03-01' group by days

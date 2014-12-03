@@ -1,0 +1,1 @@
+select sexual,count(sexual) from user  where create_time>'2011-10-28' group by user.sexual

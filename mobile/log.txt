@@ -1,0 +1,6 @@
+[2014-07-03 18:44:35] [Msg] [Imp] Import start
+[2014-07-03 18:44:35] [Msg] [Imp] Import type - Text
+[2014-07-03 18:44:35] [Msg] [Imp] Import from - /Users/onlyonc/id2.log
+[2014-07-03 18:44:35] [Msg] [Imp] Import table [id]
+[2014-07-03 18:44:35] [Msg] [Imp] Processed: 3818, Added: 3818, Updated: 0, Deleted: 0, Error: 0
+[2014-07-03 18:44:35] [Msg] [Imp] Finished - Successfully

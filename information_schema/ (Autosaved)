@@ -1,0 +1,8 @@
+SELECT CONCAT(
+	'ALTER TABLE ',
+	TABLE_SCHEMA, 
+	'.',
+	TABLE_NAME,
+	' 	ADD INDEX  (QQNum), ADD INDEX  (QunNum);'
+	)
+FROM `TABLES` WHERE TABLE_SCHEMA like "groupdata%" and TABLE_NAME !='dtproperties'

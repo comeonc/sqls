@@ -1,0 +1,30 @@
+create  table profile_temp
+SELECT 
+	p14.id as id, 
+	p14.voteabstain			- p13.voteabstain					as voteabstain,
+	p14.goodadvice			- p13.goodadvice					as goodadvice, 
+	p14.votegood			- p13.votegood						as votegood,
+	p14.vote_count			- p13.vote_count					as vote_count, 
+	p14.votebad				- p13.votebad						as votebad, 
+	p14.friends				- p13.friends						as friends,
+	p14.comment_times		- p13.comment_times					as comment_times, 
+	p14.reply_times			- p13.reply_times					as reply_times, 
+	p14.send_goodadvice		- p13.send_goodadvice				as send_goodadvice, 
+	p14.total_friends		- p13.total_friends					as total_friends, 
+	p14.invite_times		- p13.invite_times					as invite_times, 
+	p14.invited_times		- p13.invited_times					as invited_times, 
+	p14.update_info_times	- p13.update_info_times				as update_info_times, 
+	p14.bevoteabstain		- p13.bevoteabstain					as bevoteabstain, 
+	p14.bevotegood			- p13.bevotegood					as bevotegood, 
+	p14.bevotebad			- p13.bevotebad						as bevotebad, 
+	p14.bevote_count		- p13.bevote_count					as bevote_count, 
+	p14.becomment_times		- p13.becomment_times				as becomment_times, 
+	p14.bereply_times		- p13.bereply_times					as bereply_times, 
+	p14.share_times			- p13.share_times					as share_times, 
+	p14.share_clicks		- p13.share_clicks					as share_clicks, 
+	p14.real_bevote_count	- p13.real_bevote_count				as real_bevote_count, 
+	p14.real_bevotegood		- p13.real_bevotegood				as real_bevotegood, 
+	p14.real_bevotebad		- p13.real_bevotebad				as real_bevotebad, 
+	p14.real_bevoteabstain	- p13.real_bevoteabstain			as real_bevoteabstain
+FROM profile_2011_11_14 p14 INNER JOIN profile_2011_11_13 p13 ON p14.id = p13.id
+limit 1000

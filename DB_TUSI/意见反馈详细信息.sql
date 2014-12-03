@@ -1,0 +1,1 @@
+select s.*,u.device_type,u.app_version_str,u.channel from tb_suggestion s inner join tb_user u on s.uid=u.id order by s.create_date desc

@@ -1,0 +1,1 @@
+SELECT date(create_date) days, COUNT(*) total FROM tb_feed use index(idx_createDate_type_srcFid) WHERE TYPE=10 AND create_date>='2013-03-01' group by days

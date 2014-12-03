@@ -1,0 +1,1 @@
+select app_id,type, count(app_id) total from tb_app_user_profile GROUP BY app_id,type

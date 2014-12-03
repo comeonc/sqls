@@ -1,0 +1,1 @@
+SELECT date(create_date) days, uid ,1313 FROM tb_question WHERE create_date>='2013-05-01'  AND STATUS=2 group by days,uid

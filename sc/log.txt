@@ -1,0 +1,8 @@
+[2012-08-09 10:59:55] [Msg] [Imp] Import start
+[2012-08-09 10:59:55] [Msg] [Imp] Import type - Text
+[2012-08-09 10:59:55] [Msg] [Imp] Import from - /Users/onlyonc/Downloads/uid3.txt
+[2012-08-09 10:59:55] [Msg] [Imp] Import table [user_vest_id]
+[2012-08-09 11:01:40] [Msg] [Imp] Import from - /Users/onlyonc/Downloads/uid2.txt
+[2012-08-09 11:01:40] [Msg] [Imp] Import table [user_vest_id]
+[2012-08-09 11:09:42] [Msg] [Imp] Processed: 246902, Added: 135851, Updated: 0, Deleted: 0, Error: 0
+[2012-08-09 11:09:42] [Msg] [Imp] Finished - Successfully

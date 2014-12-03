@@ -1,0 +1,1 @@
+select uq.user_id userId,count(uq.user_id) num, u.username,u.openplatform,u.uid from user_question uq left join user u on uq.user_id=u.id where u.user_type=1 group by uq.user_id order by num desc limit 20

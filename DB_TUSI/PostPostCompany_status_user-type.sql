@@ -1,0 +1,1 @@
+select * from tb_post p inner join tb_post_company pc on p.id=pc.post_id where p.`status` <> pc.`status` or p.user_type <> pc.user_type

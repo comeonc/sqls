@@ -1,0 +1,1 @@
+select create_date,count(distinct uid) '独立用户' from ugc_user_20130515 where create_date>='2013-05-01' GROUP BY create_date;

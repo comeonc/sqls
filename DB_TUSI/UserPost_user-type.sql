@@ -1,0 +1,1 @@
+select * from tb_post p inner join tb_user u on u.id=p.uid where u.type <> p.user_type

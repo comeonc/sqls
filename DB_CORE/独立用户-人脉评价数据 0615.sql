@@ -1,0 +1,1 @@
+SELECT DATE(create_date) days, from_uid,0615 FROM tb_appraise WHERE create_date>'2013-05-01' GROUP BY days,from_uid

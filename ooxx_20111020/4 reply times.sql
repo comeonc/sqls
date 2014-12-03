@@ -1,0 +1,1 @@
+select vr.reply_user_id userId,count(vr.reply_user_id) num,u.username,u.openplatform,u.uid from vote_reply vr  left join user u on vr.reply_user_id=u.id where u.user_type=1 group by vr.reply_user_id order by num desc limit 20;

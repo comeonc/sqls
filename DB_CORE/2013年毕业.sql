@@ -1,0 +1,1 @@
+ select DISTINCT uid from tb_user_edu where end_date>'2013-05-01' and end_date<'2013-10-01'

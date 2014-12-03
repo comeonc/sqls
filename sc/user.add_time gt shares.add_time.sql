@@ -1,0 +1,1 @@
+select u.id uid,s.id sid, u.add_time utime,s.add_time stime from user u inner join shares s on u.id=s.user_id where u.add_time>s.add_time

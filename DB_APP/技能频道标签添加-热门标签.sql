@@ -1,0 +1,1 @@
+select tag,count(tag) total from trial_skill_tag_log group by tag order by total desc limit 100;

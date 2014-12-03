@@ -1,0 +1,1 @@
+select id from tb_user where type=0

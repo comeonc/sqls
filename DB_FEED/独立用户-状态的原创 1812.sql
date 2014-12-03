@@ -1,0 +1,1 @@
+SELECT date(create_date) days, uid, 1812 FROM tb_feed use index(idx_createDate_type_srcFid) WHERE TYPE=10 AND create_date>='2013-05-01' group by days,uid

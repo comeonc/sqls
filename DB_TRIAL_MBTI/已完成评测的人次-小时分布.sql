@@ -1,0 +1,1 @@
+ select date(result_time) days,HOUR(result_time)  h, count(*) total, flag from mbti_result where result_time>'2013-10-10' and result_time<'2013-10-11'  and flag=1 group by days,h;
