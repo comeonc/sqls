@@ -1,0 +1,1 @@
+select date(create_date) days,count(1) total from `tb_wzp_user` group by days order by days;

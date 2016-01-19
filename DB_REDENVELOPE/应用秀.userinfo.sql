@@ -1,0 +1,1 @@
+select * from `tb_weixin_userinfo` where app_id=5

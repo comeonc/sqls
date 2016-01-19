@@ -1,0 +1,1 @@
+select date(create_date) days,count(1) '日新增' from `tb_wzp_user` where auth_config_id=254  group by days order by days desc;

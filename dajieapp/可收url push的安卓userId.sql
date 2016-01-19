@@ -1,0 +1,2 @@
+select userId from `tb_user_device_token` where type=1 and updateTime>'2015-01-29' and 
+(client_version='2.2.1' or client_version = '2.2.2' or client_version='3.0.0' or client_version='3.0.1' or client_version>='3.1.0');

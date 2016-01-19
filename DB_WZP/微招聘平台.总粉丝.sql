@@ -1,0 +1,1 @@
+select a.id id, a.app_name as 'name',c.corp_id,   count(1) total from tb_weixin_auth_config a left join tb_wzp_corp_info c on a.id=c.auth_config_id left join  `tb_wzp_user` u on a.id = u.auth_config_id  where u.focus_status=1 and a.id <> 2 and a.id <> 7 group by a.id order by total desc;
