@@ -1,0 +1,1 @@
+select id '帖子ID', create_date '创建时间',update_date '审核修改时间' from tb_post where create_date>'2015-11-01' and create_date<'2015-12-01' and status = 3
