@@ -1,6 +1,7 @@
 SELECT
 	date(create_date) days,
 	task_id '类型',
+	count(1) '发放次数',
 	sum(fee) '发放积分'
 FROM
 	tb_wallet_profit

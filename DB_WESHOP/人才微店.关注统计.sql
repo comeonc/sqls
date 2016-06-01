@@ -7,18 +7,22 @@ FROM
 	(
 		SELECT
 			date(create_date) days,
-			count(1) total
+			count(DISTINCT open_id) total
 		FROM
 			`tb_weshop_receive_message`
 		WHERE
 			type = 100
+		OR (
+			type = 102
+			AND LOCATE('rscene_', content_add) > 0
+		)
 		GROUP BY
 			days
 	) AS a
 LEFT JOIN (
 	SELECT
 		date(create_date) days,
-		count(1) total
+		count(DISTINCT open_id) total
 	FROM
 		`tb_weshop_receive_message`
 	WHERE

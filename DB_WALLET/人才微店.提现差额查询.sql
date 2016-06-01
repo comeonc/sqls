@@ -12,7 +12,7 @@ LEFT JOIN (
 		`tb_weixin_redpack`
 	WHERE
 		project_id = 2
-	AND payment_status = 101
+	AND (payment_status = 101 or payment_status=102 or payment_status=104)
 	GROUP BY
 		project_uid
 ) r ON a.project_uid = r.project_uid
