@@ -1,0 +1,10 @@
+select uid from tb_invitecorp_item_uididx_0  where condition_id=213 union all 
+select uid from tb_invitecorp_item_uididx_1  where condition_id=213 union all 
+select uid from tb_invitecorp_item_uididx_2  where condition_id=213 union all 
+select uid from tb_invitecorp_item_uididx_3  where condition_id=213 union all 
+select uid from tb_invitecorp_item_uididx_4  where condition_id=213 union all 
+select uid from tb_invitecorp_item_uididx_5  where condition_id=213 union all 
+select uid from tb_invitecorp_item_uididx_6  where condition_id=213 union all 
+select uid from tb_invitecorp_item_uididx_7  where condition_id=213 union all 
+select uid from tb_invitecorp_item_uididx_8  where condition_id=213 union all 
+select uid from tb_invitecorp_item_uididx_9  where condition_id=213   

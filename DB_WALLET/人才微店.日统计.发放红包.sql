@@ -8,7 +8,7 @@ FROM
 	`tb_weixin_redpack`
 WHERE
 	project_id = 2
-AND create_date > '2016-05-01'
+AND create_date > '2016-08-01'
 AND payment_status <> 0
 GROUP BY
 	days,
