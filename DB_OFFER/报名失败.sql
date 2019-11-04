@@ -1,0 +1,1 @@
+select date(create_date) '日期', paramp '渠道',count(DISTINCT uvid) '去重点击' from `tb_course_sign_fail` group by `日期`,`渠道`;

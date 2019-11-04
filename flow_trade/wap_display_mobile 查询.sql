@@ -1,0 +1,1 @@
+select customer_id,count(customer_id) from wap_display_mobile GROUP BY customer_id

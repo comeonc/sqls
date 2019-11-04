@@ -1,0 +1,1 @@
+select id,blacklist_system '系统级退订',blacklist_unsubscribe '用户退订',blacklist_complain '系统投诉' from `account_profile`;

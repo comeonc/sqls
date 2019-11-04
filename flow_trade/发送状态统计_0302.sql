@@ -29,7 +29,7 @@ select
 	sum(total_piece) '分片积分数',
 	count(1) '请求条数'
 from
-	sms_down_batch_170310
+	sms_down_batch_170302
 group by
 	customer_id ,
 	supplier_id ,

@@ -1,0 +1,6 @@
+[2018-08-28 15:11:28] [Msg] [Imp] Import start
+[2018-08-28 15:11:28] [Msg] [Imp] Import type - XLS
+[2018-08-28 15:11:28] [Msg] [Imp] Import from - /Users/onlyonc/Desktop/a.xls
+[2018-08-28 15:11:28] [Msg] [Imp] Import table [tb_mgr_dict_product]
+[2018-08-28 15:11:28] [Msg] [Imp] Processed: 100, Added: 100, Updated: 0, Deleted: 0, Error: 0
+[2018-08-28 15:11:28] [Msg] [Imp] Finished - Successfully

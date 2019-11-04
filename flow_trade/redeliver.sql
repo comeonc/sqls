@@ -1,0 +1,1 @@
+select id from sms_down_batch where create_date>'2017-03-04' and (customer_id=15 or customer_id=16)
