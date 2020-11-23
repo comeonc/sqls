@@ -1,1 +1,0 @@
-SELECT date(create_date) days, count(1) '私信条数' from tb_user_session_info where send_user_type = 1   GROUP BY days  

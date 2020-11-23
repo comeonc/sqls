@@ -1,1 +1,0 @@
-select mq.category_id '分类ID',c.category_name '分类名称',count(mq.category_id) '偷窥数' from seeu_question_peeper pr left join seeu_my_question mq left join zhimei_query.category c on mq.category_id=c.id on pr.my_question_id=mq.id group by mq.category_id;

@@ -1,1 +1,0 @@
-select date(create_time) days, type, sum(integral_change) from tb_app_profile_integral group by days,type

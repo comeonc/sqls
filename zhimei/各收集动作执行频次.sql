@@ -1,1 +1,0 @@
-select collect_type,count(collect_type) from reshares where add_time>'2012-10-01' and collect_type>0 group by collect_type

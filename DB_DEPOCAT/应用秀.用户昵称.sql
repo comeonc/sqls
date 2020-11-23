@@ -1,1 +1,0 @@
-select p.id,p.open_id, u.nickname from `tb_app_user_profile` p left join tb_weixin_userinfo u on p.open_id=u.open_id where p.app_id=5;

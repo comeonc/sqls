@@ -1,6 +1,0 @@
-[2012-07-02 14:27:29] [Msg] [Imp] Import start
-[2012-07-02 14:27:29] [Msg] [Imp] Import type - XLS
-[2012-07-02 14:27:29] [Msg] [Imp] Import from - /Users/onlyonc/data/oooo/Q币发货短信通知.2012-07-02.1.xls
-[2012-07-02 14:27:29] [Msg] [Imp] Import table [saving_sms_send_batch]
-[2012-07-02 14:27:30] [Msg] [Imp] Processed: 618, Added: 618, Updated: 0, Deleted: 0, Error: 0
-[2012-07-02 14:27:30] [Msg] [Imp] Finished - Successfully

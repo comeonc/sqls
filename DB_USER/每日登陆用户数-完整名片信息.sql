@@ -1,1 +1,0 @@
-select date(last_login_date) days,count(last_login_date) total from tb_last_logindate l inner join tb_user_base u on l.uid=u.uid  where last_login_date>'2013-04-15' and `status`=9 group by days ;

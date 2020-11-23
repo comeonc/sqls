@@ -1,1 +1,0 @@
-select id bid, user_id uid, user_add_time utime, add_time btime,auto from board order by bid asc limit 10000;

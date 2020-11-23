@@ -1,1 +1,0 @@
-select * from tb_ctsd order by seq desc limit 30

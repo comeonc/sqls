@@ -1,6 +1,0 @@
-[2011-08-16 14:22:11] [Msg] [Imp] Import start
-[2011-08-16 14:22:11] [Msg] [Imp] Import type - XLS
-[2011-08-16 14:22:11] [Msg] [Imp] Import from - /Users/onlyonc/Downloads/马甲回复内容.xls
-[2011-08-16 14:22:11] [Msg] [Imp] Import table [operation_vote_comments]
-[2011-08-16 14:22:11] [Msg] [Imp] Processed: 310, Added: 310, Updated: 0, Deleted: 0, Error: 0
-[2011-08-16 14:22:11] [Msg] [Imp] Finished - Successfully

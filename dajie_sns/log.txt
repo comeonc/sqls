@@ -1,6 +1,0 @@
-[2012-02-20 12:19:01] [Msg] [Imp] Import start
-[2012-02-20 12:19:01] [Msg] [Imp] Import type - XLS
-[2012-02-20 12:19:01] [Msg] [Imp] Import from - /Users/onlyonc/专业列表(大街网线上版本).xls
-[2012-02-20 12:19:02] [Msg] [Imp] Import table [catalog_major]
-[2012-02-20 12:19:02] [Msg] [Imp] Processed: 612, Added: 612, Updated: 0, Deleted: 0, Error: 0
-[2012-02-20 12:19:02] [Msg] [Imp] Finished - Successfully

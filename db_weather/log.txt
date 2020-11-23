@@ -1,6 +1,0 @@
-[2015-02-12 12:02:14] [Msg] [Imp] Import start
-[2015-02-12 12:02:14] [Msg] [Imp] Import type - XLS
-[2015-02-12 12:02:14] [Msg] [Imp] Import from - /Users/onlyonc/data/doc/xxxx/技术文档/天气/新id+城市名.xls
-[2015-02-12 12:02:14] [Msg] [Imp] Import table [area_new]
-[2015-02-12 12:02:15] [Msg] [Imp] Processed: 2855, Added: 2855, Updated: 0, Deleted: 0, Error: 0
-[2015-02-12 12:02:15] [Msg] [Imp] Finished - Successfully

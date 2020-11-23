@@ -1,1 +1,0 @@
-select * from tb_wzp_message_pic where url like '%\_'

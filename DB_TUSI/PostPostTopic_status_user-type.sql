@@ -1,1 +1,0 @@
-select * from tb_post p inner join tb_post_topic pt on p.id=pt.post_id where p.`status` <> pt.`status` or p.user_type <> pt.user_type

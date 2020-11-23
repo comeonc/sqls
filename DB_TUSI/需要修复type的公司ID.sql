@@ -1,1 +1,0 @@
-select id from tb_company where to_company_id > 0 and type <> 3

@@ -1,6 +1,0 @@
-[2013-05-14 19:17:05] [Msg] [Imp] Import start
-[2013-05-14 19:17:05] [Msg] [Imp] Import type - Text
-[2013-05-14 19:17:05] [Msg] [Imp] Import from - /Users/onlyonc/Desktop/no_enouht_tags.txt
-[2013-05-14 19:17:05] [Msg] [Imp] Import table [tb_no_tags]
-[2013-05-14 19:18:24] [Msg] [Imp] Processed: 8750136, Added: 8750136, Updated: 0, Deleted: 0, Error: 0
-[2013-05-14 19:18:24] [Msg] [Imp] Finished - Successfully

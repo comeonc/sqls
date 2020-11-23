@@ -1,1 +1,0 @@
-select date(add_time) days,count(add_time) total from tb_fm_log where step=10 GROUP BY days order by days asc

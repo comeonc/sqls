@@ -1,1 +1,0 @@
-update user set email=CONCAT("test_",id,"@test.com"),password_digest="test12345"

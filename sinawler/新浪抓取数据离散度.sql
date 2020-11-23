@@ -1,1 +1,0 @@
-select sum(sina_user_count.count) total , count(sina_user_count.count) times ,floor(avg(sina_user_count.count)*10000)/10000 average, sina_user_count.type from sina_user_count   group by sina_user_count.type

@@ -1,6 +1,0 @@
-[2013-05-15 12:24:20] [Msg] [Imp] Import start
-[2013-05-15 12:24:20] [Msg] [Imp] Import type - XLS
-[2013-05-15 12:24:20] [Msg] [Imp] Import from - /Users/onlyonc/Desktop/独立用户-团队角色 1013.xls
-[2013-05-15 12:24:20] [Msg] [Imp] Import table [ugc_user_20130515]
-[2013-05-15 12:24:20] [Msg] [Imp] Processed: 1945, Added: 1945, Updated: 0, Deleted: 0, Error: 0
-[2013-05-15 12:24:20] [Msg] [Imp] Finished - Successfully

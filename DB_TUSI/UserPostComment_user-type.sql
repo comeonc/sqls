@@ -1,1 +1,0 @@
-select * from tb_post_comment c inner join tb_user u on u.id=c.uid where u.type <> c.type

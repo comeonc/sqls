@@ -1,1 +1,0 @@
-select date(create_date) days,count(1) total from `tb_wzp_user` where auth_config_id=253 and focus_status=1 group by days order by days;

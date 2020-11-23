@@ -1,1 +1,0 @@
-select date(date_time) days, origin, count(1) totalFROM trial_skill_tag_loggroup by days,origin

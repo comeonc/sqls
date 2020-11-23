@@ -1,1 +1,0 @@
-select * from tb_post p inner join tb_post_geo pg on p.id=pg.id where p.`status` <> pg.`status` 
